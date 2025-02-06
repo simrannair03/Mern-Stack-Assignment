@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mern Stack Week-1 Assignment</title>
+    <style>
+        body{
+            text-align:center;
+            background-color:bisque;
+            margin:0;
+            padding:20px;
+        }
+        img{
+            display: inline-block;
+        }
+        #p2{
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            line-height:15px;
+            text-align: left;
+            display:block;
+        }
+        #p1{
+            font-family:Arial, Helvetica, sans-serif;
+            line-height:1;
+            text-align: justify;
+
+        }
+        h4{
+            margin-bottom: 8px;
+        }
+        h1{
+            text-decoration: underline;
+            margin-bottom: 20px;
+        }
+        /* button{
+            padding: 5px;
+            border: 2px solid green;
+            border-radius: 50px;
+        } */
+        button {
+            padding: 10px 20px;
+            border: 2px solid green;
+            border-radius: 25px;
+            background-color: white;
+            cursor: pointer;
+            transition: 0.3s;
+            font-size: 16px;
+        }
+        button:hover{
+            background-color: goldenrod;
+            color:white;
+        }
+        table{
+            border-collapse: collapse;
+            margin:0 auto 0 auto;
+            background-color: grey;
+            color:white;
+            border:solid black 2px;
+        }
+        #d2{
+            /* display:flex; */
+            justify-content: center;
+            text-align: center;
+        }
+        tr,td{
+            padding:5px;
+            text-align: center;
+            border: solid black 1px;
+        }
+        th{
+            padding:5px;
+            text-align: center;
+            border: solid black 1px;
+            color:black;
+        }
+        /* #f1{
+            border: solid black 2px;
+        } */
+        #f1 {
+        width: 50%;
+        margin: 20px auto;
+        /* background-color: white; */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    form button{
+        margin-top: 10px;
+    }
+    </style>
+</head>
+<body>
+    <h1 id="i1">HTML & CSS Assignment</h1>
+    <p id="p1">
+        The MERN stack is a popular JavaScript-based technology stack used for building dynamic web applications. It consists of MongoDB (a NoSQL database), Express.js (a backend web framework), React.js (a frontend library), and Node.js (a runtime environment). MERN enables full-stack development using JavaScript, allowing seamless data flow between client and server. Developers prefer it for its efficiency, scalability, and ease of deployment. With React handling the user interface, Express and Node managing the backend, and MongoDB storing data, MERN is widely used for modern web applications, including eCommerce platforms, social networks, and enterprise solutions.
+    </p>
+    <h4>learning HTML & CSS:-</h4>
+    <p id="p2">
+        HTML (HyperText Markup Language) and CSS (Cascading Style Sheets) are the foundation of web development. HTML structures web pages using elements like headings, paragraphs, and links, while CSS styles them by controlling layout, colors, and fonts. Together, they create visually appealing and responsive websites for users.
+    </p>
+    <div id="d1"><img src="https://miro.medium.com/v2/resize:fit:540/1*BgcUXqrJV7xNofAFWDrCkw.png">
+    <br>
+    <caption>Mern Stack</caption></div>
+    <br>
+    <div id="d3">
+    <button>Styled button</button>
+    </div>
+    <br>
+    <div id="d2">
+    <table border="2px">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+        </tr>
+        <tr>
+            <td>Simran</td>
+            <td>22</td>
+            <td>Female</td>
+        </tr>
+        <tr>
+            <td>Mansi</td>
+            <td>20</td>
+            <td>Female</td>
+        </tr>
+        <tr>
+            <td>Eshwari</td>
+            <td>20</td>
+            <td>Female</td>
+        </tr>
+    </table>
+    <caption id="c1">Table</caption>
+    </div>
+    <br>
+    <div id="f1">
+        <p>Form</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+            <button type="submit">submit</button>
+        </form>
+    </div>
+</body>
+</html>
