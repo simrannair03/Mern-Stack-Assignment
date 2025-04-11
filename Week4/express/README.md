@@ -1,6 +1,6 @@
-### Install Dependencies:
 # Express Project Setup
 ## Installation
+### Install Dependencies:
 Follow the steps below to set up and run the Express project.
 ### Prerequisites
 Ensure you have Node.js installed. You can download it from the [Node.js official website](https://nodejs.org/).
